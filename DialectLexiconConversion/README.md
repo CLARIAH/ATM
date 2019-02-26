@@ -18,6 +18,7 @@ To do:
 * DBpedia links to etymological sources?
 * model authors as entities instead of literals? 
 * entry type (e.g. woordenschat) to entity type instead of literals? 
+* shortcuts? 
 * Licence? 
 
 Creator: Marieke.van.Erp@dh.huc.knaw.nl  
