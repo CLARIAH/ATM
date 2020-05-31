@@ -71,8 +71,7 @@
    "foaf": "http://xmlns.com/foaf/0.1/",
    "xsd": "http://www.w3.org/2001/XMLSchema#",
    "time": "http://www.w3.org/2006/time#",
-   "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/",
-   "sem": "http://semanticweb.cs.vu.nl/2009/11/sem/"
+   "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/"
   }
  ],
  "dc:title": "ndb-sample-amsterdam.csv",
@@ -85,30 +84,30 @@
   "aboutUrl": "take/{take}",
   "primaryKey": "ndb-URI",
   "columns": [
+    {
+     "virtual": true,
+     "propertyUrl": "rdf:type",
+     "valueUrl": "http://purl.org/ontology/mo/Recording"
+    },
+    {
+     "virtual": true,
+     "propertyUrl": "rdf:type",
+     "valueUrl": "sem:Event"
+    },
+    {
+     "virtual": "true",
+     "propertyUrl": "sem:Actor",
+     "valueUrl": "http://www.meertens.knaw.nl/"
+    },
    {
     "datatype": "xsd:anyURI",
     "titles": [
-     "NDB-URI"
+     "ndb-URI"
     ],
     "@id": "https://iisg.amsterdam/ndb-sample-amsterdam.csv/column/ndb-URI",
     "name": "ndb-URI",
-    "dc:description": "URI of take in the Nederlandse Dialectenbank",
-    "propertyUrl": "lemon:example"
-   },
-   {
-    "virtual": true,
-    "propertyUrl": "rdf:type",
-    "valueUrl": "http://purl.org/ontology/mo/Recording"
-   },
-   {
-    "virtual": true,
-    "propertyUrl": "rdf:type",
-    "valueUrl": "sem:Event"
-   },
-   {
-    "virtual": "true",
-    "propertyUrl": "sem:Actor",
-    "valueUrl": "http://www.meertens.knaw.nl/"
+    "dc:description": "ndb-URI",
+    "propertyUrl": "bibo:URI"
    },
    {
     "datatype": "xsd:gYear",
@@ -121,28 +120,14 @@
     "propertyUrl": "sem:hasTimeStamp"
    },
    {
-    "datatype": "string",
-    "lang": "nl",
-    "titles": [
-     "dialect"
-    ],
-    "@id": "https://iisg.amsterdam/ndb-sample-amsterdam.csv/column/dialect",
-    "name": "dialect",
-    "dc:description": "The id of the dialect"
+    "virtual": true,
+    "name": "lexDataId",
+    "datatype": "xsd:anyURI",
+    "propertyUrl": "skos:broader",
+    "valurUrl": "{lexDataId}"
    },
    {
     "virtual": true,
-    "aboutUrl": "{dialect}",
-    "propertyUrl": "rdf:type",
-    "valueUrl": "http://purl.org/linguistics/gold/Dialect"
-   },
-   {
-    "titles": [
-     "city"
-    ],
-    "@id": "https://iisg.amsterdam/ndb-sample-amsterdam.csv/column/city",
-    "name": "city",
-    "dc:description": "City in which interview was taken",
     "propertyUrl": "sem:hasPlace",
     "valueUrl": "http://www.gemeentegeschiedenis.nl/gemeentenaam/{city}"
    },

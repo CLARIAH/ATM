@@ -1,0 +1,1148 @@
+@prefix ns1: <https://iisg.amsterdam/vocab/> .
+@prefix ns2: <http://rdfs.co/juso/> .
+@prefix ns3: <https://iisg.amsterdam/cinemadata_overzicht.csv/column/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://www.w3.org/ns/csvw#> .
+@prefix ns6: <http://schema.org/> .
+@prefix ns7: <http://www.w3.org/ns/prov#> .
+@prefix ns8: <http://www.nanopub.org/nschema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://iisg.amsterdam/cinemadata_overzicht/nanopublication/4af7ba9e/2019-05-06T13:35> a ns8:Nanopublication ;
+    ns8:hasAssertion <https://iisg.amsterdam/cinemadata_overzicht/assertion/4af7ba9e/2019-05-06T13:35> ;
+    ns8:hasProvenance <https://iisg.amsterdam/cinemadata_overzicht/provenance/4af7ba9e/2019-05-06T13:35> ;
+    ns8:hasPublicationInfo <https://iisg.amsterdam/cinemadata_overzicht/pubinfo/4af7ba9e/2019-05-06T13:35> ;
+    ns7:generatedAtTime "2019-05-06T13:35:00"^^xsd:dateTime ;
+    ns7:wasGeneratedBy <https://github.com/CLARIAH/wp4-converters> .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/> ns2:address "900035"^^xsd:string,
+        "900044"^^xsd:string,
+        "900051"^^xsd:string,
+        "Haarlemmerweg 201"^^xsd:string,
+        "Kerkstraat 311"^^xsd:string,
+        "Mauritskade 63"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=75;tpl=details.tpl#target4> ;
+    ns1:CityNeighborhood1850 "AA"^^xsd:string,
+        "ONA"^^xsd:string,
+        "ZZ"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear,
+        "?"^^xsd:gYear,
+        "Present"^^xsd:gYear ;
+    ns1:Name "Bioscoop onbekend (Kerkstraat)"^^xsd:string,
+        "Huize Nieuw Vondel"^^xsd:string,
+        "Koninklijk Instituut voor de Tropen"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear,
+        "1913-01-01"^^xsd:gYear,
+        "1926-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios10> ns4:identifier "Bios10"^^xsd:string ;
+    ns2:address "900009"^^xsd:string,
+        "900010"^^xsd:string,
+        "Ceintuurbaan 282-284"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=5;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "YY"^^xsd:string ;
+    ns1:ClosingYear "1976-01-01"^^xsd:gYear ;
+    ns1:Name "Ceintuur Theater"^^xsd:string ;
+    ns1:OpeningYear "1921-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios100> ns4:identifier "Bios100"^^xsd:string ;
+    ns2:address "900058"^^xsd:string,
+        "900059"^^xsd:string,
+        "Overtoom 135-137"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=92;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "XX"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Olympia Paleis (Overtoom)"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios101> ns4:identifier "Bios101"^^xsd:string ;
+    ns2:address "900007"^^xsd:string,
+        "Bellamystraat 49"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=90;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "ONA"^^xsd:string ;
+    ns1:ClosingYear "1965-01-01"^^xsd:gYear ;
+    ns1:Name "Olympia (Bellamystraat)"^^xsd:string ;
+    ns1:OpeningYear "1928-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios102> ns4:identifier "Bios102"^^xsd:string ;
+    ns2:address "900021"^^xsd:string,
+        "Frederiksplein"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Adventure"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Fantasy"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=14;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Z"^^xsd:string ;
+    ns1:ClosingYear "1929-01-01"^^xsd:gYear ;
+    ns1:Name "Paleis voor Volksvlijt"^^xsd:string ;
+    ns1:OpeningYear "1907-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios104> ns4:identifier "Bios104"^^xsd:string ;
+    ns2:address "900001"^^xsd:string,
+        "900002"^^xsd:string,
+        "900003"^^xsd:string,
+        "Amstelstraat 14-18"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=2;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Y"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Panopticum (Amstelstraat)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios105> ns4:identifier "Bios105"^^xsd:string ;
+    ns2:address "900041"^^xsd:string,
+        "Kalverstraat 122"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=25;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "E"^^xsd:string ;
+    ns1:ClosingYear "1923-01-01"^^xsd:gYear ;
+    ns1:Name "Pathé"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios106> ns4:identifier "Bios106"^^xsd:string ;
+    ns2:address "900055"^^xsd:string,
+        "Nieuwe Herengracht 117"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=35;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "V"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Plantage Bioscoop (Nieuwe Herengracht)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios107> ns4:identifier "Bios107"^^xsd:string ;
+    ns2:address "900038"^^xsd:string,
+        "Jodenbreestraat 23"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=22;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Q"^^xsd:string ;
+    ns1:ClosingYear "1927-01-01"^^xsd:gYear ;
+    ns1:Name "Rembrandt Bioscope"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios112> ns4:identifier "Bios112"^^xsd:string ;
+    ns2:address "1516"^^xsd:string,
+        "Nieuwendijk 192"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "GB"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Action"^^xsd:string,
+        "Adventure"^^xsd:string,
+        "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=40;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1922-01-01"^^xsd:gYear ;
+    ns1:Name "Victoria (Nieuwendijk)"^^xsd:string ;
+    ns1:OpeningYear "1920-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1292> ns4:identifier "Bios1292"^^xsd:string ;
+    ns2:address "900036"^^xsd:string,
+        "900037"^^xsd:string,
+        "Heiligeweg 34-36"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=21;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "D"^^xsd:string ;
+    ns1:ClosingYear "1930-01-01"^^xsd:gYear ;
+    ns1:Name "Union"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1302> ns4:identifier "Bios1302"^^xsd:string ;
+    ns2:address "900068"^^xsd:string,
+        "Rembrandtplein 21-23"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=48;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Y"^^xsd:string ;
+    ns1:ClosingYear "1943-01-01"^^xsd:gYear ;
+    ns1:Name "Rembrandt Theater"^^xsd:string ;
+    ns1:OpeningYear "1919-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1310> ns4:identifier "Bios1310"^^xsd:string ;
+    ns2:address "900071"^^xsd:string,
+        "Sint Willibrordusstraat 19"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=110;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "YY"^^xsd:string ;
+    ns1:ClosingYear "1925-01-01"^^xsd:gYear ;
+    ns1:Name "R.K. Schoolbioscoop"^^xsd:string ;
+    ns1:OpeningYear "1919-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios14> ns4:identifier "Bios14"^^xsd:string ;
+    ns2:address "900041"^^xsd:string,
+        "Kalverstraat 122"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=24;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "E"^^xsd:string ;
+    ns1:ClosingYear "1979-01-01"^^xsd:gYear ;
+    ns1:Name "Corso"^^xsd:string ;
+    ns1:OpeningYear "1925-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1430> ns4:identifier "Bios1430"^^xsd:string ;
+    ns2:address "900029"^^xsd:string,
+        "Haarlemmerstraat 12a"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=57;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "TT"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Edison (Haarlemmerstraat)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1432> ns4:identifier "Bios1432"^^xsd:string ;
+    ns2:address "900052"^^xsd:string,
+        "900053"^^xsd:string,
+        "900054"^^xsd:string,
+        "Nieuwe Achtergracht 140-144"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=33;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "W"^^xsd:string ;
+    ns1:ClosingYear "1912-01-01"^^xsd:gYear ;
+    ns1:Name "Keur Bioscoop (Nieuwe Achtergracht)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1433> ns4:identifier "Bios1433"^^xsd:string ;
+    ns2:address "900063"^^xsd:string,
+        "Rapenburg 16b"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=138;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "U"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Victoria (Rapenburg)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1434> ns4:identifier "Bios1434"^^xsd:string ;
+    ns2:address "900024"^^xsd:string,
+        "Goudsbloemstraat 86"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=19;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "QQ"^^xsd:string ;
+    ns1:ClosingYear "1912-01-01"^^xsd:gYear ;
+    ns1:Name "Bioscoop onbekend 4 / Van der Werf Bioscooptheater"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1435> ns4:identifier "Bios1435"^^xsd:string ;
+    ns2:address "900045"^^xsd:string,
+        "900046"^^xsd:string,
+        "Kinkerstraat 309-311"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=136;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "ONA"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Van Lennep Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1489> ns4:identifier "Bios1489"^^xsd:string ;
+    ns2:address "900027"^^xsd:string,
+        "Haarlemmerplein 7"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=93;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1918-01-01"^^xsd:gYear ;
+    ns1:Name "Ons Genoegen"^^xsd:string ;
+    ns1:OpeningYear "1914-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios1492> ns4:identifier "Bios1492"^^xsd:string ;
+    ns2:address "900063"^^xsd:string,
+        "Rapenburg 16b"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=45;tpl=details.tpl#target5> ;
+    ns1:CityNeighborhood1850 "U"^^xsd:string ;
+    ns1:ClosingYear "1912-01-01"^^xsd:gYear ;
+    ns1:Name "Concordia"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios18> ns4:identifier "Bios18"^^xsd:string ;
+    ns2:address "900020"^^xsd:string,
+        "Elandsgracht 92"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=13;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "GG"^^xsd:string ;
+    ns1:ClosingYear "1962-01-01"^^xsd:gYear ;
+    ns1:Name "Edison (Elandsgracht)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios19> ns4:identifier "Bios19"^^xsd:string ;
+    ns2:address "900004"^^xsd:string,
+        "900005"^^xsd:string,
+        "Amstelstraat 20-28"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "History"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=3;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Y"^^xsd:string ;
+    ns1:ClosingYear "1929-01-01"^^xsd:gYear ;
+    ns1:Name "Flora"^^xsd:string ;
+    ns1:OpeningYear "1903-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios22> ns4:identifier "Bios22"^^xsd:string ;
+    ns2:address "1870"^^xsd:string,
+        "1871"^^xsd:string,
+        "1872"^^xsd:string,
+        "Nieuwendijk 128-132"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=37;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1975-01-01"^^xsd:gYear ;
+    ns1:Name "Luxor"^^xsd:string ;
+    ns1:OpeningYear "1919-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios23> ns4:identifier "Bios23"^^xsd:string ;
+    ns2:address "900066"^^xsd:string,
+        "Reguliersbreestraat 34"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=47;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "X"^^xsd:string ;
+    ns1:ClosingYear "1983-01-01"^^xsd:gYear ;
+    ns1:Name "Nöggerath (Bioscope Theater)"^^xsd:string ;
+    ns1:OpeningYear "1907-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios25> ns4:identifier "Bios25"^^xsd:string ;
+    ns2:address "900070"^^xsd:string,
+        "Singel 460"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string ;
+    ns3:TopGenre "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=52;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "JJ"^^xsd:string ;
+    ns1:ClosingYear "1916-01-01"^^xsd:gYear ;
+    ns1:Name "Odeon (Singel)"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios26> ns4:identifier "Bios26"^^xsd:string ;
+    ns2:address "900016"^^xsd:string,
+        "Dapperstraat 84"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=12;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "ZZ"^^xsd:string ;
+    ns1:ClosingYear "1922-01-01"^^xsd:gYear ;
+    ns1:Name "Olympia (Dapperstraat)"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios27> ns4:identifier "Bios27"^^xsd:string ;
+    ns2:address "2544"^^xsd:string,
+        "Nieuwendijk 69"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=42;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "L"^^xsd:string ;
+    ns1:ClosingYear "1987-01-01"^^xsd:gYear ;
+    ns1:Name "Parisien (Nieuwendijk)"^^xsd:string ;
+    ns1:OpeningYear "1910-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios28> ns4:identifier "Bios28"^^xsd:string ;
+    ns2:address "1519"^^xsd:string,
+        "Nieuwendijk 186"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "I"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=39;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1959-01-01"^^xsd:gYear ;
+    ns1:Name "Passage"^^xsd:string ;
+    ns1:OpeningYear "1919-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios3> ns4:identifier "Bios3"^^xsd:string ;
+    ns2:address "1761"^^xsd:string,
+        "Nieuwendijk 154"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=38;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1940-01-01"^^xsd:gYear ;
+    ns1:Name "Cinema Royal"^^xsd:string ;
+    ns1:OpeningYear "1922-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios31> ns4:identifier "Bios31"^^xsd:string ;
+    ns2:address "900011"^^xsd:string,
+        "900012"^^xsd:string,
+        "Ceintuurbaan 338-340"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Fantasy"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=6;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "YY"^^xsd:string ;
+    ns1:ClosingYear "Present"^^xsd:gYear ;
+    ns1:Name "Rialto"^^xsd:string ;
+    ns1:OpeningYear "1921-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios32> ns4:identifier "Bios32"^^xsd:string ;
+    ns2:address "900042"^^xsd:string,
+        "Kalverstraat 224"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=27;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "D"^^xsd:string ;
+    ns1:ClosingYear "1982-01-01"^^xsd:gYear ;
+    ns1:Name "Roxy"^^xsd:string ;
+    ns1:OpeningYear "1927-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios33> ns4:identifier "Bios33"^^xsd:string ;
+    ns2:address "900069"^^xsd:string,
+        "Rozengracht 117"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=51;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "EE"^^xsd:string ;
+    ns1:ClosingYear "1926-01-01"^^xsd:gYear ;
+    ns1:Name "Rozen Theater"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios34> ns4:identifier "Bios34"^^xsd:string ;
+    ns2:address "900064"^^xsd:string,
+        "900065"^^xsd:string,
+        "Reguliersbreestraat 26-28"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=46;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "X"^^xsd:string ;
+    ns1:ClosingYear "1940-01-01"^^xsd:gYear ;
+    ns1:Name "Tuschinski"^^xsd:string ;
+    ns1:OpeningYear "1921-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios44> ns4:identifier "Bios44"^^xsd:string ;
+    ns2:address "900069"^^xsd:string,
+        "Rozengracht 117"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=50;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "EE"^^xsd:string ;
+    ns1:ClosingYear "1948-01-01"^^xsd:gYear ;
+    ns1:Name "Asta"^^xsd:string ;
+    ns1:OpeningYear "1926-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios46> ns4:identifier "Bios46"^^xsd:string ;
+    ns2:address "772"^^xsd:string,
+        "Warmoesstraat 139"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=53;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "J"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Beurs Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios48> ns4:identifier "Bios48"^^xsd:string ;
+    ns2:address "2543"^^xsd:string,
+        "Nieuwendijk 67"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=27;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "L"^^xsd:string ;
+    ns1:ClosingYear "1987-01-01"^^xsd:gYear ;
+    ns1:Name "Centraal (Nieuwendijk)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios5> ns4:identifier "Bios5"^^xsd:string ;
+    ns2:address "900025"^^xsd:string,
+        "Haarlemmerdijk 82"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Adventure"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=18;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1964-01-01"^^xsd:gYear ;
+    ns1:Name "Apollo"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios51> ns4:identifier "Bios51"^^xsd:string ;
+    ns2:address "900062"^^xsd:string,
+        "Prinsengracht 452"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=45;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "CC"^^xsd:string ;
+    ns1:ClosingYear "1929-01-01"^^xsd:gYear ;
+    ns1:Name "City Bioscope"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios53> ns4:identifier "Bios53"^^xsd:string ;
+    ns2:address "1006"^^xsd:string,
+        "Damstraat 23"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=10;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "J"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Dam Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios54> ns4:identifier "Bios54"^^xsd:string ;
+    ns2:address "900014"^^xsd:string,
+        "Damstraat 20"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=9;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "A"^^xsd:string ;
+    ns1:ClosingYear "1920-01-01"^^xsd:gYear ;
+    ns1:Name "Damstraat Bioscope"^^xsd:string ;
+    ns1:OpeningYear "1915-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios55> ns4:identifier "Bios55"^^xsd:string ;
+    ns2:address "900056"^^xsd:string,
+        "Nieuwendijk 11"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=59;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "L"^^xsd:string ;
+    ns1:ClosingYear "1916-01-01"^^xsd:gYear ;
+    ns1:Name "Familie Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios56> ns4:identifier "Bios56"^^xsd:string ;
+    ns2:address "2e Goudsbloemdwarsstraat"^^xsd:string,
+        "900073"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=63;tpl=details.tpl#target5> ;
+    ns1:CityNeighborhood1850 "QQ"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Goudsbloem"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios57> ns4:identifier "Bios57"^^xsd:string ;
+    ns2:address "900006"^^xsd:string,
+        "Amstelstraat 21-23"^^xsd:string ;
+    ns3:TopCountry "DK"^^xsd:string,
+        "F"^^xsd:string,
+        "I"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=4;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Y"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Grand Théâtre"^^xsd:string ;
+    ns1:OpeningYear "1910-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios58> ns4:identifier "Bios58"^^xsd:string ;
+    ns2:address "900028"^^xsd:string,
+        "Haarlemmerplein 33"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=65;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Haarlemmerpoort"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios59> ns4:identifier "Bios59"^^xsd:string ;
+    ns2:address "900028"^^xsd:string,
+        "Haarlemmerplein 33"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=127;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Thalia (A)"^^xsd:string ;
+    ns1:OpeningYear "1914-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios60> ns4:identifier "Bios60"^^xsd:string ;
+    ns2:address "900026"^^xsd:string,
+        "Haarlemmerdijk 161"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=15;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1969-01-01"^^xsd:gYear ;
+    ns1:Name "Hollandia (Haarlemmerdijk)"^^xsd:string ;
+    ns1:OpeningYear "1915-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios61> ns4:identifier "Bios61"^^xsd:string ;
+    ns2:address "900055"^^xsd:string,
+        "Nieuwe Herengracht 117"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=34;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "V"^^xsd:string ;
+    ns1:ClosingYear "1949-01-01"^^xsd:gYear ;
+    ns1:Name "Hollandia (Nieuwe Herengracht)"^^xsd:string ;
+    ns1:OpeningYear "1915-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios62> ns4:identifier "Bios62"^^xsd:string ;
+    ns2:address "900057"^^xsd:string,
+        "Nieuwendijk 29"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=41;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "L"^^xsd:string ;
+    ns1:ClosingYear "1918-01-01"^^xsd:gYear ;
+    ns1:Name "Juliana"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios63> ns4:identifier "Bios63"^^xsd:string ;
+    ns2:address "772"^^xsd:string,
+        "Warmoesstraat 139"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string ;
+    ns3:TopGenre "Crime"^^xsd:string,
+        "Drama"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=54;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "J"^^xsd:string ;
+    ns1:ClosingYear "1923-01-01"^^xsd:gYear ;
+    ns1:Name "Keur Bioscoop (Warmoesstraat)"^^xsd:string ;
+    ns1:OpeningYear "1922-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios64> ns4:identifier "Bios64"^^xsd:string ;
+    ns2:address "1870"^^xsd:string,
+        "1871"^^xsd:string,
+        "1872"^^xsd:string,
+        "Nieuwendijk 128-132"^^xsd:string ;
+    ns3:TopCountry "DK"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Documentary"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=36;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1919-01-01"^^xsd:gYear ;
+    ns1:Name "Kosmorama"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios659> ns4:identifier "Bios659"^^xsd:string ;
+    ns2:address "900013"^^xsd:string,
+        "Coehoornstraat 6"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=87;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "T"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Odeon (Coehoornstraat)"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios67> ns4:identifier "Bios67"^^xsd:string ;
+    ns2:address "900043"^^xsd:string,
+        "Kalverstraat 226"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=28;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "D"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Cinema de la Monnaie"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios69> ns4:identifier "Bios69"^^xsd:string ;
+    ns2:address "900043"^^xsd:string,
+        "Kalverstraat 226"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "DK"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=29;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "D"^^xsd:string ;
+    ns1:ClosingYear "1949-01-01"^^xsd:gYear ;
+    ns1:Name "De Munt"^^xsd:string ;
+    ns1:OpeningYear "1914-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios71> ns4:identifier "Bios71"^^xsd:string ;
+    ns2:address "900015"^^xsd:string,
+        "Daniël Stalpertstraat 67"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=11;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "YY"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Americain Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios73> ns4:identifier "Bios73"^^xsd:string ;
+    ns2:address "900022"^^xsd:string,
+        "900023"^^xsd:string,
+        "Goudsbloemstraat 52-54"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=18;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "QQ"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Bioscoop onbekend 2 / Bioscoop Goudsbloemstraat"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios74> ns4:identifier "Bios74"^^xsd:string ;
+    ns2:address "900072"^^xsd:string,
+        "Tuinstraat 144-146"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=17;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "OO"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Bioscoop onbekend 1 (Tuinstraat) / Bioscooptheater Tuinstraat"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios75> ns4:identifier "Bios75"^^xsd:string ;
+    ns2:address "900067"^^xsd:string,
+        "Rembrandtplein 8"^^xsd:string ;
+    ns3:TopCountry "DK"^^xsd:string,
+        "F"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=49;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "X"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Café-Bioscoop Blaauw"^^xsd:string ;
+    ns1:OpeningYear "1909-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios76> ns4:identifier "Bios76"^^xsd:string ;
+    ns2:address "900008"^^xsd:string,
+        "Ceintuurbaan 280"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=25;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "YY"^^xsd:string ;
+    ns1:ClosingYear "1921-01-01"^^xsd:gYear ;
+    ns1:Name "Ceintuur Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios78> ns4:identifier "Bios78"^^xsd:string ;
+    ns2:address "900042"^^xsd:string,
+        "Kalverstraat 224"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=26;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "D"^^xsd:string ;
+    ns1:ClosingYear "1927-01-01"^^xsd:gYear ;
+    ns1:Name "Cinema Palace"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios79> ns4:identifier "Bios79"^^xsd:string ;
+    ns2:address "900048"^^xsd:string,
+        "900049"^^xsd:string,
+        "Lijnbaansgracht 31-32"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=31;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "QQ"^^xsd:string ;
+    ns1:ClosingYear "1929-01-01"^^xsd:gYear ;
+    ns1:Name "Nassau"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios80> ns4:identifier "Bios80"^^xsd:string ;
+    ns2:address "900050"^^xsd:string,
+        "Linnaeusstraat 20"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=32;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "ZZ"^^xsd:string ;
+    ns1:ClosingYear "1965-01-01"^^xsd:gYear ;
+    ns1:Name "National Theater"^^xsd:string ;
+    ns1:OpeningYear "1922-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios81> ns4:identifier "Bios81"^^xsd:string ;
+    ns2:address "900014"^^xsd:string,
+        "Damstraat 20"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=84;tpl=details.tpl#target5> ;
+    ns1:CityNeighborhood1850 "A"^^xsd:string ;
+    ns1:ClosingYear "1924-01-01"^^xsd:gYear ;
+    ns1:Name "New York"^^xsd:string ;
+    ns1:OpeningYear "1920-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios82> ns4:identifier "Bios82"^^xsd:string ;
+    ns2:address "900014"^^xsd:string,
+        "Damstraat 20"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=8;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "A"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Bijou Biograph Theatre"^^xsd:string ;
+    ns1:OpeningYear "1906-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios84> ns4:identifier "Bios84"^^xsd:string ;
+    ns2:address "900076"^^xsd:string,
+        "900077"^^xsd:string,
+        "Weesperstraat 60-62"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "I"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=56;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "W"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Oostersche Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios85> ns4:identifier "Bios85"^^xsd:string ;
+    ns2:address "900061"^^xsd:string,
+        "Prinsengracht 245a"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=44;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "RR"^^xsd:string ;
+    ns1:ClosingYear "1942-01-01"^^xsd:gYear ;
+    ns1:Name "Prinsen Theater"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios86> ns4:identifier "Bios86"^^xsd:string ;
+    ns2:address "900026"^^xsd:string,
+        "Haarlemmerdijk 161"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=16;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1915-01-01"^^xsd:gYear ;
+    ns1:Name "Prinsesse Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1914-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios87> ns4:identifier "Bios87"^^xsd:string ;
+    ns2:address "900027"^^xsd:string,
+        "Haarlemmerplein 7"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=19;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Roode Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios88> ns4:identifier "Bios88"^^xsd:string ;
+    ns2:address "900074"^^xsd:string,
+        "900075"^^xsd:string,
+        "Waterlooplein 80-82"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=55;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "P"^^xsd:string ;
+    ns1:ClosingYear "1918-01-01"^^xsd:gYear ;
+    ns1:Name "Rubens Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios90> ns4:identifier "Bios90"^^xsd:string ;
+    ns2:address "900030"^^xsd:string,
+        "900031"^^xsd:string,
+        "900032"^^xsd:string,
+        "900033"^^xsd:string,
+        "900034"^^xsd:string,
+        "Haarlemmerstraat 31-39"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Romance"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=20;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "TT"^^xsd:string ;
+    ns1:ClosingYear "1936-01-01"^^xsd:gYear ;
+    ns1:Name "Scala"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios91> ns4:identifier "Bios91"^^xsd:string ;
+    ns2:address "1e Van Swindenstraat 72-76"^^xsd:string,
+        "900017"^^xsd:string,
+        "900018"^^xsd:string,
+        "900019"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=125;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "ZZ"^^xsd:string ;
+    ns1:ClosingYear "1926-01-01"^^xsd:gYear ;
+    ns1:Name "Swinden Theater"^^xsd:string ;
+    ns1:OpeningYear "1913-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios92> ns4:identifier "Bios92"^^xsd:string ;
+    ns2:address "900026"^^xsd:string,
+        "Haarlemmerdijk 161"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=17;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1914-01-01"^^xsd:gYear ;
+    ns1:Name "Tavenu"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios93> ns4:identifier "Bios93"^^xsd:string ;
+    ns2:address "900057"^^xsd:string,
+        "Nieuwendijk 29"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=128;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "L"^^xsd:string ;
+    ns1:ClosingYear "1922-01-01"^^xsd:gYear ;
+    ns1:Name "Thalia (B)"^^xsd:string ;
+    ns1:OpeningYear "1918-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios94> ns4:identifier "Bios94"^^xsd:string ;
+    ns2:address "900039"^^xsd:string,
+        "900040"^^xsd:string,
+        "Jodenbreestraat 25-27"^^xsd:string ;
+    ns3:TopCountry "USA"^^xsd:string ;
+    ns3:TopGenre "Drama"^^xsd:string,
+        "Romance"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=23;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Q"^^xsd:string ;
+    ns1:ClosingYear "1942-01-01"^^xsd:gYear ;
+    ns1:Name "Tip-Top Theater"^^xsd:string ;
+    ns1:OpeningYear "1914-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios96> ns4:identifier "Bios96"^^xsd:string ;
+    ns2:address "900027"^^xsd:string,
+        "Haarlemmerplein 7"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=141;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "UU"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Wester Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/Bios97> ns4:identifier "Bios97"^^xsd:string ;
+    ns2:address "1318"^^xsd:string,
+        "Damrak 64"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USA"^^xsd:string ;
+    ns3:TopGenre "Comedy"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=7;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "H"^^xsd:string ;
+    ns1:ClosingYear "1929-01-01"^^xsd:gYear ;
+    ns1:Name "Witte Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1911-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/id1129320034190> ns4:identifier "id1129320034190"^^xsd:string ;
+    ns2:address "900001"^^xsd:string,
+        "900002"^^xsd:string,
+        "900003"^^xsd:string,
+        "Amstelstraat 14-18"^^xsd:string ;
+    ns3:TopCountry "D"^^xsd:string,
+        "F"^^xsd:string,
+        "USSR"^^xsd:string ;
+    ns3:TopGenre "Animation"^^xsd:string,
+        "Drama"^^xsd:string,
+        "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;start=1;size=1;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "Y"^^xsd:string ;
+    ns1:ClosingYear "1916-01-01"^^xsd:gYear ;
+    ns1:Name "Centraal Theater (Amstelstraat)"^^xsd:string ;
+    ns1:OpeningYear "1915-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/id1157638479768> ns4:identifier "id1157638479768"^^xsd:string ;
+    ns2:address "772"^^xsd:string,
+        "Warmoesstraat 139"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?sort=naam%20oplopend;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;c=cccbioscoop;rgn1=Stad;type=boolean;q1=amsterdam;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=53;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "J"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "De Vereeniging"^^xsd:string ;
+    ns1:OpeningYear "1912-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/id1187961919945> ns4:identifier "id1187961919945"^^xsd:string ;
+    ns2:address "900047"^^xsd:string,
+        "Leidsekade 90"^^xsd:string ;
+    ns3:TopCountry "F"^^xsd:string,
+        "I"^^xsd:string ;
+    ns3:TopGenre "Short"^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=9a1f78db0d329446d2b166e80694eb47;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=30;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "JJ"^^xsd:string ;
+    ns1:ClosingYear "1913-01-01"^^xsd:gYear ;
+    ns1:Name "Opera Bioscoop"^^xsd:string ;
+    ns1:OpeningYear "1910-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/id1340234547876> ns4:identifier "id1340234547876"^^xsd:string ;
+    ns2:address "900060"^^xsd:string,
+        "Plantage Middenlaan 4a"^^xsd:string ;
+    ns3:TopCountry " "^^xsd:string ;
+    ns1:CinemaContextLink <http://www.cinemacontext.nl/cgi/b/bib/bib-idx?type=boolean;c=cccbioscoop;sid=46eec382e20c7b7fa0d185d9934c82c4;lang=nl;q1=Amsterdam;rgn1=Stad;op2=And;rgn2=Alle%20velden;op3=And;rgn3=Alle%20velden;op4=And;rgn4=Alle%20velden;op5=And;rgn5=Alle%20velden;op6=And;rgn6=Alle%20velden;op7=And;rgn7=Alle%20velden;op8=And;rgn8=Alle%20velden;op9=And;rgn9=Alle%20velden;op10=And;rgn10=Alle%20velden;rangemin1=1907;rangemax1=1928;date1=1800;date2=1928;rangemin2=01-01-1800;rangemax2=31-12-1928;sort=stad%20oplopend;cc=cccbioscoop;view=reslist;fmt=long;page=reslist;size=1;start=43;tpl=details.tpl> ;
+    ns1:CityNeighborhood1850 "V"^^xsd:string ;
+    ns1:ClosingYear "1910-01-01"^^xsd:gYear ;
+    ns1:Name "Bellevue Bioscoop (Plantage Middenlaan)"^^xsd:string ;
+    ns1:OpeningYear "1910-01-01"^^xsd:gYear .
+
+<https://iisg.amsterdam/4af7ba9ea03c0dbd4627ebfec93fbe5891f2b68d> ns1:path "cinemadata_overzicht.csv"^^xsd:string ;
+    ns1:sha1_hash "4af7ba9ea03c0dbd4627ebfec93fbe5891f2b68d"^^xsd:string .
+
+<https://iisg.amsterdam/cinemadata_overzicht.csv> ns4:license <http://opendefinition.org/licenses/cc-by/> ;
+    ns4:modified "2019-03-22"^^xsd:date ;
+    ns4:publisher [ ns6:name "CLARIAH Structured Data Hub - Datalegend"@en ;
+            ns6:url <http://datalegend.net/> ] ;
+    ns4:title "cinemadata_overzicht.csv"@en ;
+    ns5:dialect [ ns5:delimiter "," ;
+            ns5:encoding "utf-8" ;
+            ns5:quoteChar "\"" ] ;
+    ns5:tableSchema [ ns5:aboutUrl <https://iisg.amsterdam/resource/atm/cinemacontext/_CinemaContextId_> ;
+            ns5:column ( ns3:Name ns3:CinemaContextId ns3:CinemaContextLink ns3:OpeningYear ns3:ClosingYear ns3:Address ns3:Locatiepunt1 ns3:Locatiepunt2 ns3:Locatiepunt3 ns3:Locatiepunt4 ns3:Locatiepunt5 ns3:CityNeighborhood1850 ns3:TopCountry1 ns3:TopCountry2 ns3:TopCountry3 ns3:TopGenre1 ns3:TopGenre2 ns3:TopGenre3 ) ;
+            ns5:primaryKey "CinemaContextId" ] ;
+    ns5:url "cinemadata_overzicht.csv"^^xsd:anyURI .
+
+ns3:Address ns4:description "Address of the cinema"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Address" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Address"@en .
+
+ns3:CinemaContextId ns4:description "Identifier for the cinema in CinemaContext"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "CinemaContextId" ;
+    ns5:propertyUrl ns4:identifier ;
+    ns5:title "CinemaContextId"@en .
+
+ns3:CinemaContextLink ns4:description "URL presenting data about the cinema on cinemacontext.nl"@en ;
+    ns5:datatype xsd:anyURI ;
+    ns5:name "CinemaContextLink" ;
+    ns5:title "CinemaContextLink"@en .
+
+ns3:CityNeighborhood1850 ns4:description "CityNeighborhood1850"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "CityNeighborhood1850" ;
+    ns5:title "CityNeighborhood1850"@en .
+
+ns3:ClosingYear ns4:description "Year of closing of the cinema"@en ;
+    ns5:datatype xsd:gYear ;
+    ns5:name "ClosingYear" ;
+    ns5:title "ClosingYear"@en .
+
+ns3:Locatiepunt1 ns4:description "Number in the Amsterdam Time machine set of locations on the map."@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Locatiepunt1" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Locatiepunt1"@en .
+
+ns3:Locatiepunt2 ns4:description "Number in the Amsterdam Time machine set of locations on the map."@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Locatiepunt2" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Locatiepunt2"@en .
+
+ns3:Locatiepunt3 ns4:description "Number in the Amsterdam Time machine set of locations on the map."@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Locatiepunt3" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Locatiepunt3"@en .
+
+ns3:Locatiepunt4 ns4:description "Number in the Amsterdam Time machine set of locations on the map."@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Locatiepunt4" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Locatiepunt4"@en .
+
+ns3:Locatiepunt5 ns4:description "Number in the Amsterdam Time machine set of locations on the map."@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Locatiepunt5" ;
+    ns5:propertyUrl ns2:address ;
+    ns5:title "Locatiepunt5"@en .
+
+ns3:Name ns4:description "Name of the cinema"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "Name" ;
+    ns5:title "Name"@en .
+
+ns3:OpeningYear ns4:description "Year of opening of the cinema"@en ;
+    ns5:datatype xsd:gYear ;
+    ns5:name "OpeningYear" ;
+    ns5:title "OpeningYear"@en .
+
+ns3:TopCountry1 ns4:description "TopCountry1"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopCountry1" ;
+    ns5:propertyUrl ns3:TopCountry ;
+    ns5:title "TopCountry1"@en .
+
+ns3:TopCountry2 ns4:description "TopCountry2"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopCountry2" ;
+    ns5:propertyUrl ns3:TopCountry ;
+    ns5:title "TopCountry2"@en .
+
+ns3:TopCountry3 ns4:description "TopCountry3"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopCountry3" ;
+    ns5:propertyUrl ns3:TopCountry ;
+    ns5:title "TopCountry3"@en .
+
+ns3:TopGenre1 ns4:description "TopGenre1"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopGenre1" ;
+    ns5:propertyUrl ns3:TopGenre ;
+    ns5:title "TopGenre1"@en .
+
+ns3:TopGenre2 ns4:description "TopGenre2"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopGenre2" ;
+    ns5:propertyUrl ns3:TopGenre ;
+    ns5:title "TopGenre2"@en .
+
+ns3:TopGenre3 ns4:description "TopGenre3"@en ;
+    ns5:datatype xsd:string ;
+    ns5:name "TopGenre3" ;
+    ns5:propertyUrl ns3:TopGenre ;
+    ns5:title "TopGenre3"@en .
+
+<https://iisg.amsterdam/cinemadata_overzicht/assertion/4af7ba9e/2019-05-06T13:35> a ns8:Assertion ;
+    ns7:generatedAtTime "2019-05-06T13:35:00"^^xsd:dateTime ;
+    ns7:wasDerivedFrom <https://iisg.amsterdam/4af7ba9ea03c0dbd4627ebfec93fbe5891f2b68d>,
+        <https://iisg.amsterdam/cinemadata_overzicht.csv> .
+
+<https://iisg.amsterdam/cinemadata_overzicht/provenance/4af7ba9e/2019-05-06T13:35> a ns8:Provenance .
+
+<https://iisg.amsterdam/cinemadata_overzicht/pubinfo/4af7ba9e/2019-05-06T13:35> a ns8:PublicationInfo .
+
+<https://iisg.amsterdam/resource/atm/cinemacontext/_CinemaContextId_> ns7:wasDerivedFrom "https://iisg.amsterdam/resource/atm/cinemacontext/{CinemaContextId}"^^xsd:string .
+

@@ -117,7 +117,7 @@
     "dc:description": "Identifier of Amsterdam Dialect"
    },
    {
-    "datatype": "string",
+    "datatype": "xsd:anyURI",
     "titles": [
      "lexDataId"
     ],
